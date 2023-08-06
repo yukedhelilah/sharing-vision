@@ -13,24 +13,31 @@ This is a Laravel project built using Laravel 8, PHP 7.4, and MySQL 5. It serves
 
 ## Installation
 1. Clone the repository:
+   ```bash
    git clone -b master https://github.com/yukedhelilah/sharing-vision.git
    
 2. Navigate to the project directory:
+   ```bash
    cd sharing-vision
 
 3. Install the required PHP dependencies:
+   ```bash
    composer install
 
 4. Create a copy of the .env.example file and rename it to .env. Modify the database connection details to match your MySQL configuration:
+   ```bash
    cp .env.example .env
 
 5. Generate the application key:
+   ```bash
    php artisan key:generate
 
 6. Run database migrations:
+   ```bash
    php artisan migrate
    
 7. Start the development server:
+   ```bash
    php artisan serve
 
 ## API Documentation
